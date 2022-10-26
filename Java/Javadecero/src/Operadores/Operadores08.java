@@ -18,8 +18,10 @@ public class Operadores08 {
         c = entrada.nextDouble();
         
         
-        resulato1 = (-b+math.sqrt(Math.pow(b,2)-(4*a*c))) / (2*a);
-        resultado2 = (-b-Math.sqrt(Math.pow(b,2)-(4*a*c))) / (2*a):
+        resultado1 = (-b+Math.sqrt(Math.pow(b,2)-(4*a*c))) / (2*a);
+        System.out.println("El resultado1 da: "+resultado1);
+        resultado2 = (-b-Math.sqrt(Math.pow(b,2)-(4*a*c))) / (2*a);
+        System.out.println("El resultado2 da: "+resultado2);
         
     }
     
