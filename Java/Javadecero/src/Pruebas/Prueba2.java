@@ -26,13 +26,15 @@ public class Prueba2 {
   
             //Comprobamos si coincide, no usamos ==, usamos el metodo equals
             if (password.equals(contraseña)){
-                JOptionPane.showMessageDialog(null,"Enhorabuena, acertaste");
+                JOptionPane.showMessageDialog(null,"Accediendo a su cuenta");
                 acierto=true;
             }
-            else{
+            else {
                 
                 JOptionPane.showMessageDialog(null, "Su contraseña no coincide, intentelo nuevamente");
             }
+            
+            
         }
     }
 }
